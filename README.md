@@ -1,3 +1,10 @@
+composer global require "fxp/composer-asset-plugin:~1.4.0"
+
+composer update
+
+配置:
+http://www.fecshop.com/doc/fecshop-guide/develop/cn-1.0/guide-fecshop-about-config.html
+
 <p>
   <a href="http://fecshop.appfront.fancyecommerce.com/">
     <img src="http://img.appfront.fancyecommerce.com/custom/logo.png">
