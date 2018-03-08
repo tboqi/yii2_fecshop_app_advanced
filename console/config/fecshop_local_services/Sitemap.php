@@ -26,18 +26,18 @@ return [
                     // 这个设置对seo来说，设置为false最合适，也就是隐藏 url中index.php ，这种设置需要开启nginx的url重写
                 ],
                 // store的key(域名)
-                'fecshop.appfront.fancyecommerce.com/fr' => [
+                'appfront.fecshoptest.com:10080/fr' => [
                     'https' => true, // false代表使用http，true代表使用https
                     'sitemapDir' => '@appfront/web/fr/sitemap.xml', // sitemap存放的地址
                     'showScriptName' => false,
                 ],
 
-                'fecshop.appfront.es.fancyecommerce.com' => [
-                    'https' => true, // false代表使用http，true代表使用https
-                    'sitemapDir' => '@appfront/web/sitemap_es.xml',
-                    'showScriptName' => false,
-                ],
-                'fecshop.appfront.fancyecommerce.com/cn' => [
+                // 'fecshop.appfront.es.fancyecommerce.com' => [
+                //     'https' => true, // false代表使用http，true代表使用https
+                //     'sitemapDir' => '@appfront/web/sitemap_es.xml',
+                //     'showScriptName' => false,
+                // ],
+                'appfront.fecshoptest.com:10080/cn' => [
                     'https' => true, // false代表使用http，true代表使用https
                     'sitemapDir' => '@appfront/web/cn/sitemap.xml',
                     'showScriptName' => false,

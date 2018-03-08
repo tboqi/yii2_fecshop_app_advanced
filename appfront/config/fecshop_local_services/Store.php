@@ -96,7 +96,7 @@ return [
                 ],
                 'sitemapDir' => '@appfront/web/sitemap_es.xml',
             ],
-            'fecshop.appfront.fancyecommerce.com/cn' => [
+            'appfront.fecshoptest.com:10080/cn' => [
                 'language' => 'zh_CN',
                 'languageName' => '中文',
                 'localThemeDir' => '@appfront/theme/terry/theme01',
