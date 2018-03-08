@@ -1,7 +1,7 @@
 <?php
 /**
  * FecShop file.
- * 
+ *
  * @link http://www.fecshop.com/
  *
  * @copyright Copyright (c) 2016 FecShop Software LLC
@@ -9,7 +9,7 @@
  */
 return [
     'sitemap' => [
-        'class'         => 'fecshop\services\Sitemap',
+        'class' => 'fecshop\services\Sitemap',
         'sitemapConfig' => [
             /*
              * 对于下面的设置，您可能感觉很啰嗦，域名作为store的key，在store service中已经设置，
@@ -19,28 +19,28 @@ return [
             // appfront入口
             'appfront' => [
                 // store的key(域名)，
-                'fecshop.appfront.fancyecommerce.com' => [
-                    'https'            => true,  // false代表使用http，true代表使用https
-                    'sitemapDir'       => '@appfront/web/sitemap.xml', // sitemap存放的地址
-                    'showScriptName'   => false,    // 是否显示index.php ，譬如http://www.fecshop.com/index.php/xxxxxx,当nginx没有设置重写，这里需要设置为true,这样url中会存在index.php，否则会404
-                                                // 这个设置对seo来说，设置为false最合适，也就是隐藏 url中index.php ，这种设置需要开启nginx的url重写
+                'appfront.fecshoptest.com:10080' => [
+                    'https' => true, // false代表使用http，true代表使用https
+                    'sitemapDir' => '@appfront/web/sitemap.xml', // sitemap存放的地址
+                    'showScriptName' => false, // 是否显示index.php ，譬如http://www.fecshop.com/index.php/xxxxxx,当nginx没有设置重写，这里需要设置为true,这样url中会存在index.php，否则会404
+                    // 这个设置对seo来说，设置为false最合适，也就是隐藏 url中index.php ，这种设置需要开启nginx的url重写
                 ],
                 // store的key(域名)
                 'fecshop.appfront.fancyecommerce.com/fr' => [
-                    'https'            => true,  // false代表使用http，true代表使用https
-                    'sitemapDir'       => '@appfront/web/fr/sitemap.xml', // sitemap存放的地址
-                    'showScriptName'   => false,
+                    'https' => true, // false代表使用http，true代表使用https
+                    'sitemapDir' => '@appfront/web/fr/sitemap.xml', // sitemap存放的地址
+                    'showScriptName' => false,
                 ],
 
                 'fecshop.appfront.es.fancyecommerce.com' => [
-                    'https'            => true,  // false代表使用http，true代表使用https
-                    'sitemapDir'       => '@appfront/web/sitemap_es.xml',
-                    'showScriptName'   => false,
+                    'https' => true, // false代表使用http，true代表使用https
+                    'sitemapDir' => '@appfront/web/sitemap_es.xml',
+                    'showScriptName' => false,
                 ],
                 'fecshop.appfront.fancyecommerce.com/cn' => [
-                    'https'            => true,  // false代表使用http，true代表使用https
-                    'sitemapDir'       => '@appfront/web/cn/sitemap.xml',
-                    'showScriptName'   => false,
+                    'https' => true, // false代表使用http，true代表使用https
+                    'sitemapDir' => '@appfront/web/cn/sitemap.xml',
+                    'showScriptName' => false,
                 ],
             ],
         ],
